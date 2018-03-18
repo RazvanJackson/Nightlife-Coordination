@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+
+body {
+  background-color: #6d3d97;
+  color: white;
+}
+
+#Header {
+  font-family: "Playfair Display", serif;
+  padding: 20px 0px;
+  text-align: center;
+
+  .header-title {
+    font-weight: 100;
+    font-size: 3em;
+  }
+
+  .icon {
+    font-size: 40px;
+    margin: 0px 10px;
+  }
+}
+
+#Search,
+#Boxes {
+  width: 65vw;
+  margin: 0px auto 20px auto;
+}
+
+#Search {
+  .input {
+    width: 80%;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 5px;
+    color: white;
+  }
+
+  .submit-btn {
+    width: 15%;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 5px;
+    color: white;
+    margin-left: 2%;
+  }
+  .submit-btn:hover {
+    background: #573078;
+    cursor: pointer;
+  }
+
+  .input:focus,
+  .submit-btn:focus {
+    outline: 0px;
+  }
+
+  .submit-btn:hover {
+    cursor: pointer;
+  }
+}
+
+#Boxes {
+  display: block;
+
+  .box {
+    margin: 20px 0px;
+    clear: left;
+    overflow: auto;
+
+    .image {
+      border-radius: 10px;
+      float: left;
+      margin-right: 25px;
+      width: 15vw;
+      height: 15vh;
+    }
+
+    .business-name {
+      margin: 0px;
+      margin-bottom: 10px;
+    }
+
+    .going-btn {
+      background: transparent;
+      border: 1px solid white;
+      color: white;
+      border-radius: 5px;
+      padding: 10px;
+    }
+
+    .going-btn:hover {
+      background: #573078;
+      cursor: pointer;
+    }
+  }
+}
